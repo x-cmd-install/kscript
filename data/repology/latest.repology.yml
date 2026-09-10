@@ -1,0 +1,23 @@
+- repo: aur
+  srcname: kscript
+  binname: kscript
+  visiblename: kscript
+  version: 4.2.3
+  origversion: 4.2.3-1
+  status: newest
+  summary: Enhanced scripting support for Kotlin on *nix and Windows based systems
+  maintainers:
+    - neworldlt@aur
+    - holgerbrandl@aur
+    - aartipl@aur
+  licenses:
+    - MIT
+- repo: scoop
+  subrepo: extras
+  binname: kscript
+  visiblename: kscript
+  version: 4.2.3
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
